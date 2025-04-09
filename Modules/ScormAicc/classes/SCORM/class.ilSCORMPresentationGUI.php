@@ -525,4 +525,8 @@ class ilSCORMPresentationGUI
         $ilCtrl->setParameterByClass("ilrepositorygui", "ref_id", $parent);
         $ilCtrl->redirectByClass("ilrepositorygui", "");
     }
+
+    public function logWarning()
+    {
+    }
 }
